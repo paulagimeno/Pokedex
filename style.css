@@ -1,0 +1,201 @@
+@font-face {
+    font-family: 'Pokemon GB';
+    src: url('Pokemon\ GB.ttf');
+  }
+
+body{
+  background-image: url(./images/Artwork_de_un_SmartRotom.png);  
+  background-size: cover;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: 66%;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  
+}
+
+
+main{
+    position: fixed;
+    margin-left: 19%;
+    margin-right: 19%;
+    width: 62%;
+    height: 64%;
+    margin-top: 10.5%;
+    margin-bottom: 10%;
+    display: flex;
+    font-family: 'Fuggles', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Space Grotesk', sans-serif;
+}
+
+.left{
+    width: 75%;
+    height: 100%;
+    display: flex;
+
+}
+
+.right{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.pokeListStyle{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   height: 60px;
+   overflow: hidden;
+   margin-bottom: 5px;
+   border-bottom-style: solid;
+   border-color: black;
+   border-width: 2px;
+   font-size: 20px;
+   font-weight: 600;
+   
+}
+
+.pokeListStyle img{
+    height: 90%;
+}
+
+.pokeList{
+    height: 75%;
+    width: 90%;
+    margin-top: 15px;
+    overflow: scroll;
+}
+
+.pokeList::-webkit-scrollbar {
+    width: 0px;
+}
+
+.pokeList::-webkit-scrollbar-thumb{
+    background-color: transparent;
+}
+
+.searchName{
+    background-color: #78a3e7;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-radius: 30px;
+    height: 30px;
+    font-family: 'Pokemon GB';
+    border-style: solid;
+    border-color: #FFE031;
+    border-width: 3px;
+    padding-left: 15px;
+    color: white;
+}
+
+.pokesearch{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.search{
+    width: 90%;
+    margin-top: 5px;
+}
+
+.inputName{
+    width: 90%;
+    border-radius: 30px;
+    height: 30px;
+    padding-left: 15px;
+}
+
+.icons{
+    height: 100%;
+    width: 4%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 18px;
+}
+
+.pokeData{
+    width: 96%;
+}
+
+.pokemonbig{
+    display: flex;
+    width: 100%;
+}
+
+.picname{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.alldata{
+    width: 60%;
+}
+
+.pokenames{
+    height: 17%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.pokepic{
+    height: 85%;
+    display: flex;
+    margin-left: 25%;
+    width: 80%;
+    background-image: url(./images/2321856_97b55.gif);
+    background-size: cover;
+    background-position-x: center;
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position-y: 110px;
+}
+
+.pokepik{
+    margin-top: 30%;
+    width: 300px;
+    
+}
+
+.namep{
+    color: #FB5852;
+    font-size: 30px;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.poketabla{
+    margin-top: 20px;
+    margin-left: 80px;
+    width: 80%;
+    background-color: rgba(78, 78, 78, 0.918);
+    border-style: solid;
+    height: 50%;
+    border-color: rgba(0, 0, 0, 0.664);
+    border-collapse: collapse;
+
+}
+
+.pokecelda{
+    border-width: 3px;
+    border-style: solid;
+    border-color: #000000b4;
+    padding: 20px;
+    text-align: center;
+    color: white;
+} 
+
+.data{
+    background-color: rgba(255, 255, 255, 0.877);
+    color: black;
+}
